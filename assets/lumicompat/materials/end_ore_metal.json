@@ -1,0 +1,4 @@
+{
+    "vertexSource": "lumi:shaders/material/default.vert",
+    "fragmentSource": "lumicompat:shaders/material/end_ore_metal.frag"
+}

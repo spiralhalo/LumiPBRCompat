@@ -1,0 +1,12 @@
+{
+    "defaultMaterial": "fabric:standard",
+    "variants":
+    {
+        "active=true,facing=up": { "defaultMaterial": "canvas:emissive_no_diffuse" },
+        "active=true,facing=north": { "defaultMaterial": "canvas:emissive_no_diffuse" },
+        "active=true,facing=south": { "defaultMaterial": "canvas:emissive_no_diffuse" },
+        "active=true,facing=west": { "defaultMaterial": "canvas:emissive_no_diffuse" },
+        "active=true,facing=east": { "defaultMaterial": "canvas:emissive_no_diffuse" },
+        "active=true,facing=down": { "defaultMaterial": "canvas:emissive_no_diffuse" }
+    }
+}

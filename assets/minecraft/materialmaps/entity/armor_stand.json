@@ -1,0 +1,236 @@
+{
+    "map": [
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/chainmail_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/chainmail_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/gold_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/gold_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/iron_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/iron_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/netherite_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/netherite_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/leather_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_bumpy_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/leather_layer_1_overlay.png"
+                }
+            },
+            "material": "lumi:armor_bumpy_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/leather_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_bumpy_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/leather_layer_2_overlay.png"
+                }
+            },
+            "material": "lumi:armor_bumpy_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/piglin_leather_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_bumpy_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/piglin_leather_layer_1_overlay.png"
+                }
+            },
+            "material": "lumi:armor_bumpy_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/turtle_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_bumpy_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/diamond_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_smooth_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/diamond_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_smooth_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/quantum_layer_1.png"
+                }
+            },
+            "material": "lumicompat:techreborn/machine_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/quantum_layer_2.png"
+                }
+            },
+            "material": "lumicompat:techreborn/machine_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/lithium_batpack_layer_1.png"
+                }
+            },
+            "material": "lumicompat:techreborn/machine_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/lapotronic_orbpack_layer_1.png"
+                }
+            },
+            "material": "lumicompat:techreborn/machine_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/sapphire_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_smooth_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/sapphire_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_smooth_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/ruby_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_smooth_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/ruby_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_smooth_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/peridot_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_smooth_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/peridot_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_smooth_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/bronze_layer_1.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/models/armor/bronze_layer_2.png"
+                }
+            },
+            "material": "lumi:armor_metal_transform"
+        }
+    ]
+}

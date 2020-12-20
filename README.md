@@ -12,3 +12,5 @@ Currently adds PBR materials for [Tech Reborn](https://www.curseforge.com/minecr
 Compat typically adds redundancies from Ext for complex material maps. It's advised to put Compat above Ext in the resource pack list otherwise some things like **armors** wouldn't work.
 
 Lumi PBR Compat is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Have some questions? [Join the Lumi Lights discord.](https://discord.gg/qcyBfhxkgk)

@@ -1,7 +1,7 @@
 # Lumi PBR Compat
 Lumi PBR materials for 3rd party stuff.
 
-[Lumi Lights](https://github.com/spiralhalo/LumiLightsPBR) is a shader pack for [Canvas renderer](https://github.com/grondag/canvas) mod for Minecraft on the Fabric mod platform.
+[Lumi Lights](https://github.com/spiralhalo/LumiLights) is a shader pack for [Canvas renderer](https://github.com/grondag/canvas) mod for Minecraft on the Fabric mod platform.
 
 ### Features
 

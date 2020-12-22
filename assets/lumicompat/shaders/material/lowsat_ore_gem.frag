@@ -9,6 +9,7 @@
 
 void frx_startFragment(inout frx_FragmentData data) 
 {
+#if LUMI_MaterialCoverage == LUMI_MaterialCoverage_ApplyAll
 #ifdef LUMI_PBR
   pbr_roughness = 0.7;
   vec3 c = data.spriteColor.rgb;
@@ -21,6 +22,7 @@ void frx_startFragment(inout frx_FragmentData data)
     pbr_f0 = vec3(0.17);
   #endif
   }
+#endif
 #endif
 
 #ifdef LUMI_BUMP

@@ -1,7 +1,7 @@
 #include lumi:shaders/lib/bump.glsl
 #include frex:shaders/api/sampler.glsl
 #include frex:shaders/api/fragment.glsl
-#include lumi:shaders/lib/apply_bump.glsl
+#include lumi:shaders/internal/ext_frag.glsl
 
 /******************************************************
   lumicompat:shaders/material/lowsat_ore_gem.frag
@@ -22,10 +22,8 @@ void frx_startFragment(inout frx_FragmentData data)
   #endif
   }
 #endif
+
 #ifdef LUMI_BUMP
-#ifdef LUMI_BUMP_MINERALS
-  _applyBump(data);  
-  // data.spriteColor.rgb *= (data.vertexNormal + 1) * 0.5;
-#endif
+  _applyBump(data);
 #endif
 }

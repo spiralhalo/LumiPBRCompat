@@ -10,7 +10,7 @@
 void frx_startFragment(inout frx_FragmentData data) 
 {
 #if LUMIEXT_MaterialCoverage == LUMIEXT_MaterialCoverage_ApplyAll
-#ifdef LUMI_PBR
+#ifdef LUMI_PBRX
   pbr_roughness = 0.7;
   vec3 c = data.spriteColor.rgb;
   float min_ = min( min(c.r, c.g), c.b );

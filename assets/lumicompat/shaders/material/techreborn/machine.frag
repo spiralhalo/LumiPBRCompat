@@ -15,7 +15,7 @@ void frx_startFragment(inout frx_FragmentData data)
   float s = max_ > 0 ? (max_ - min_) / max_ : 0;
   data.emissivity = smoothstep(0.3, 0.5, s);
 
-#ifdef LUMI_PBR
+#ifdef LUMI_PBRX
   float l = frx_luminance(c);
   if (l >= 0.25) {
     pbr_metallic = frx_smootherstep(0.5, 0.25, s) * (1.0 - l);

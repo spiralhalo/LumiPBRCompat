@@ -15,7 +15,7 @@ void frx_startFragment(inout frx_FragmentData data)
   vec2 e = max(e1, e2);
   float frameness = max(e.x, e.y);
 
-#ifdef LUMI_PBR
+#ifdef LUMI_PBRX
   if (frameness > 0) {
     pbr_metallic = 1.0;
     pbr_roughness = 0.5;

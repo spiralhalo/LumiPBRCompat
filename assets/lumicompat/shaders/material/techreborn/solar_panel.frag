@@ -18,7 +18,7 @@ void frx_startFragment(inout frx_FragmentData data)
     float frameness = max(e.x, e.y);
     if (frameness > 0) {
       #ifdef LUMI_BUMP
-      #ifdef LUMI_ApplyBumpDefault
+      #ifdef LUMIEXT_ApplyBumpDefault
       _applyBump(data);
       #endif
       #endif
@@ -47,7 +47,7 @@ void frx_startFragment(inout frx_FragmentData data)
     #endif
 
     #ifdef LUMI_BUMP
-    #ifdef LUMI_ApplyBumpDefault
+    #ifdef LUMIEXT_ApplyBumpDefault
     _applyBump(data);
     #endif
     #endif

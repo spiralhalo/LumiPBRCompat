@@ -1,0 +1,5 @@
+{
+    "blendMode": "translucent",
+    "vertexSource": "lumi:shaders/material/default.vert",
+    "fragmentSource": "lumicompat:shaders/material/adorn/wood_furniture.frag"
+}

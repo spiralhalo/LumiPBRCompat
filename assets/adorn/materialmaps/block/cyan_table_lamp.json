@@ -1,0 +1,11 @@
+{
+    "defaultMaterial": "lumicompat:adorn/table_lamp",
+    "variants": {
+        "lit=false,waterlogged=false": {
+            "defaultMaterial": "fabric:standard"
+         },
+        "lit=false,waterlogged=true": {
+            "defaultMaterial": "fabric:standard"
+         }
+    }
+}

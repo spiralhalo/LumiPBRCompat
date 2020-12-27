@@ -5,7 +5,12 @@ Lumi PBR materials for 3rd party stuff.
 
 ### Features
 
-- PBR materials for [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn) blocks, stairs, walls, fence, lights, machines, cables, armors, and ores.
+Adds Lumi Lights PBR materials for:
+
+- [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn) blocks, stairs, walls, fence, lights, machines, cables, armors, and ores.
+- [Adorn](https://www.curseforge.com/minecraft/mc-mods/adorn) furnitures, posts, platforms, steps, chimneys, fences, torch, ladders, and lamps.
+
+**Disclaimer:** this resource pack is not affiliated nor endorsed by the creators/owners of the supported mods.
 
 **[DOWNLOAD THE LATEST RELEASE](https://github.com/spiralhalo/LumiPBRCompat/releases)**
 

@@ -8,11 +8,13 @@
 ******************************************************/
 
 void frx_startFragment(inout frx_FragmentData data) 
-{  
-    vec3 pos = frx_var2.xyz;
-    float mag = 2.0*abs(0.6-fract(pos.y));
-    data.emissivity = smoothstep(0.3, 1.0, 1.0-mag*mag);
-    
+{
+    if (frx_modelOriginType() == MODEL_ORIGIN_REGION) {
+        vec3 pos = frx_var2.xyz;
+        float mag = 2.0*abs(0.6-fract(pos.y));
+        data.emissivity = smoothstep(0.3, 1.0, 1.0-mag*mag);
+    }
+
     vec4 c = data.spriteColor;
     float min_ = min( min(c.r, c.g), c.b );
     float max_ = max( max(c.r, c.g), c.b );

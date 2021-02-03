@@ -9,6 +9,7 @@ Adds Lumi Lights PBR materials for:
 
 - [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn) blocks, stairs, walls, fence, lights, machines, cables, armors, and ores.
 - [Adorn](https://www.curseforge.com/minecraft/mc-mods/adorn) furnitures, posts, platforms, steps, chimneys, fences, torch, ladders, and lamps.
+- [Oh The Biomes You'll Go](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-fabric) planks, stones, woods, and logs.
 
 **Disclaimer:** this resource pack is not affiliated nor endorsed by the creators/owners of the supported mods.
 

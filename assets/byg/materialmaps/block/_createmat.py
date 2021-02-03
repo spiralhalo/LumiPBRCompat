@@ -354,6 +354,43 @@ compoundmat_logs.append("withering_oak_log")
 compoundmat_logs.append("nightshade_log")
 compoundmat_logs.append("imbued_nightshade_log")
 compoundmat_logs.append("ether_log")
+compoundmat_logs.append("lament_log")
+compoundmat_logs.append("bulbis_stem")
+
+# default_bumpy
+default_bumpy = []
+default_bumpy_content = '{\n    "defaultMaterial": "lumi:default_bumpy"\n}'
+blocklists.append(default_bumpy)
+block_contents.append(default_bumpy_content)
+# default_bumpy -> wood
+default_bumpy.append("aspen_wood")
+default_bumpy.append("baobab_wood")
+# default_bumpy.append("blue_enchanted_wood")
+default_bumpy.append("cherry_wood")
+default_bumpy.append("cika_wood")
+default_bumpy.append("cypress_wood")
+default_bumpy.append("ebony_wood")
+default_bumpy.append("fir_wood")
+# default_bumpy.append("green_enchanted_wood")
+default_bumpy.append("holly_wood")
+default_bumpy.append("jacaranda_wood")
+default_bumpy.append("mahogany_wood")
+default_bumpy.append("mangrove_wood")
+default_bumpy.append("maple_wood")
+default_bumpy.append("palo_verde_wood")
+default_bumpy.append("pine_wood")
+default_bumpy.append("rainbow_eucalyptus_wood")
+default_bumpy.append("redwood_wood")
+default_bumpy.append("skyris_wood")
+default_bumpy.append("willow_wood")
+default_bumpy.append("witch_hazel_wood")
+default_bumpy.append("zelkova_wood")
+default_bumpy.append("palm_wood")
+default_bumpy.append("withering_oak_wood")
+default_bumpy.append("nightshade_wood")
+default_bumpy.append("ether_wood")
+default_bumpy.append("lament_wood")
+default_bumpy.append("bulbis_wood")
 
 path = "assets/byg/materialmaps/block/{name}.json"
 i = 0

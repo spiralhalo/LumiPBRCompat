@@ -1,11 +1,10 @@
 # Lumi PBR Compat
-Lumi PBR materials for 3rd party stuff.
 
-[Lumi Lights](https://github.com/spiralhalo/LumiLights) is a shader pack for [Canvas renderer](https://github.com/grondag/canvas) mod for Minecraft on the Fabric mod platform.
+![PBR Compat](https://raw.githubusercontent.com/spiralhalo/spiralhalo.github.io/main/img/pbrcompat.jpg)
 
-### Features
+Materials for compatible third-party mods that adds roughness, metal, fresnel reflectivity (f0), and shader-generated microfacet normals using Lumi Lights' PBR Extension system.
 
-Adds Lumi Lights PBR materials for:
+### Supported mods
 
 - [Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn) blocks, stairs, walls, fence, lights, machines, cables, armors, and ores.
 - [Adorn](https://www.curseforge.com/minecraft/mc-mods/adorn) furnitures, posts, platforms, steps, chimneys, fences, torch, ladders, and lamps.
@@ -18,6 +17,8 @@ Adds Lumi Lights PBR materials for:
 **[REQUIRES LUMI LIGHTS](https://github.com/spiralhalo/LumiLights)**
 
 **[REQUIRES LUMI PBR EXT](https://github.com/spiralhalo/LumiPBRExt)**
+
+### Notice
 
 Compat typically adds redundancies from Ext for complex material maps. It's advised to put Compat above Ext in the resource pack list otherwise some things like **armors** wouldn't work.
 

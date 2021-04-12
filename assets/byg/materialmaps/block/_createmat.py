@@ -2,7 +2,7 @@ blocklists = []
 block_contents = []
 # wood_polished
 wood_polished = []
-wood_polished_content = '{\n    "defaultMaterial": "lumi:wood_polished"\n}'
+wood_polished_content = '{\n    "defaultMaterial": "lumiext:wood_polished"\n}'
 blocklists.append(wood_polished)
 block_contents.append(wood_polished_content)
 # wood_polished -> planks
@@ -268,7 +268,7 @@ wood_polished.append("nightshade_fence")
 wood_polished.append("ether_fence")
 
 stone_bumpy = []
-stone_bumpy_content = '{\n    "defaultMaterial": "lumi:stone_bumpy"\n}'
+stone_bumpy_content = '{\n    "defaultMaterial": "lumiext:stone_bumpy"\n}'
 blocklists.append(stone_bumpy)
 block_contents.append(stone_bumpy_content)
 # stone_bumpy
@@ -303,7 +303,7 @@ stone_bumpy.append("soapstone")
 stone_bumpy.append("soapstone_tile")
 
 stone_bumpy_smooth = []
-stone_bumpy_smooth_content = '{\n    "defaultMaterial": "lumi:stone_bumpy_smooth"\n}'
+stone_bumpy_smooth_content = '{\n    "defaultMaterial": "lumiext:stone_bumpy_smooth"\n}'
 blocklists.append(stone_bumpy_smooth)
 block_contents.append(stone_bumpy_smooth_content)
 # stone_bumpy_smooth
@@ -322,7 +322,7 @@ stone_bumpy_smooth.append("pink_smooth_sandstone")
 stone_bumpy_smooth.append("polished_soapstone")
 
 compoundmat_logs = []
-compoundmat_logs_content = '{\n    "defaultMaterial": "lumi:default_bumpy_side",\n    "variants": {\n        "axis=x":{\n            "defaultMaterial": "lumi:default_bumpy_side_x"\n        },\n        "axis=z":{\n            "defaultMaterial": "lumi:default_bumpy_side_z"\n        }\n    }\n}'
+compoundmat_logs_content = '{\n    "defaultMaterial": "lumiext:default_bumpy_side",\n    "variants": {\n        "axis=x":{\n            "defaultMaterial": "lumiext:default_bumpy_side_x"\n        },\n        "axis=z":{\n            "defaultMaterial": "lumiext:default_bumpy_side_z"\n        }\n    }\n}'
 blocklists.append(compoundmat_logs)
 block_contents.append(compoundmat_logs_content)
 # compoundmat_logs
@@ -359,7 +359,7 @@ compoundmat_logs.append("bulbis_stem")
 
 # default_bumpy
 default_bumpy = []
-default_bumpy_content = '{\n    "defaultMaterial": "lumi:default_bumpy"\n}'
+default_bumpy_content = '{\n    "defaultMaterial": "lumiext:default_bumpy"\n}'
 blocklists.append(default_bumpy)
 block_contents.append(default_bumpy_content)
 # default_bumpy -> wood

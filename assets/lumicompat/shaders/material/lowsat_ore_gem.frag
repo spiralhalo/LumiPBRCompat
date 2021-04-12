@@ -1,7 +1,7 @@
-#include lumi:shaders/lib/bump.glsl
+#include lumiext:shaders/lib/bump.glsl
 #include frex:shaders/api/sampler.glsl
 #include frex:shaders/api/fragment.glsl
-#include lumi:shaders/internal/ext_frag.glsl
+#include lumiext:shaders/internal/frag.glsl
 
 /******************************************************
   lumicompat:shaders/material/lowsat_ore_gem.frag
@@ -18,9 +18,7 @@ void frx_startFragment(inout frx_FragmentData data)
   float s = max_ > 0 ? (max_ - min_) / max_ : 0;
   if (s > 0.05 || min_ > 0.6) {
     pbr_roughness = 0.2;
-  #if LUMI_PBR_API >= 1
-    pbr_f0 = vec3(0.17);
-  #endif
+    pbr_f0 = 0.17;
   }
 #endif
 #endif

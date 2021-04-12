@@ -1,7 +1,7 @@
-#include lumi:shaders/lib/bump.glsl
+#include lumiext:shaders/lib/bump.glsl
 #include frex:shaders/api/sampler.glsl
 #include frex:shaders/api/fragment.glsl
-#include lumi:shaders/internal/ext_frag.glsl
+#include lumiext:shaders/internal/frag.glsl
 
 /*****************************************************
   lumicompat:shaders/material/techreborn/solar_panel.frag

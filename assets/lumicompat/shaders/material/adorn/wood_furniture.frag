@@ -1,7 +1,7 @@
 #include frex:shaders/api/fragment.glsl
 #include frex:shaders/api/world.glsl
-#include lumi:shaders/lib/bump.glsl
-#include lumi:shaders/internal/ext_frag.glsl
+#include lumiext:shaders/lib/bump.glsl
+#include lumiext:shaders/internal/frag.glsl
 
 /******************************************************
   lumicompat:shaders/material/adorn/wood_furniture.frag

@@ -1,4 +1,4 @@
 {
-    "vertexSource": "lumi:shaders/material/default.vert",
+    "vertexSource": "lumiext:shaders/material/default.vert",
     "fragmentSource": "lumicompat:shaders/material/techreborn/solar_panel.frag"
 }

@@ -1,4 +1,4 @@
 {
-    "vertexSource": "lumicompat:shaders/material/default_pos.vert",
+    "vertexSource": "lumiext:shaders/material/default.vert",
     "fragmentSource": "lumicompat:shaders/material/adorn/lamp.frag"
 }

@@ -25,10 +25,8 @@ void frx_startFragment(inout frx_FragmentData data)
   }
 #endif
 
-#ifdef LUMI_BUMP
 #ifdef LUMIEXT_ApplyBumpDefault
   _applyBump(data);
-#endif
 #endif
 
 }

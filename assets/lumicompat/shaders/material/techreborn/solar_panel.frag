@@ -17,10 +17,8 @@ void frx_startFragment(inout frx_FragmentData data)
     vec2 e = max(e1, e2);
     float frameness = max(e.x, e.y);
     if (frameness > 0) {
-      #ifdef LUMI_BUMP
       #ifdef LUMIEXT_ApplyBumpDefault
       _applyBump(data);
-      #endif
       #endif
     } else {
       #ifdef LUMI_PBRX
@@ -46,10 +44,8 @@ void frx_startFragment(inout frx_FragmentData data)
     }
     #endif
 
-    #ifdef LUMI_BUMP
     #ifdef LUMIEXT_ApplyBumpDefault
     _applyBump(data);
-    #endif
     #endif
   }
 }

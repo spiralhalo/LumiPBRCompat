@@ -1,0 +1,11 @@
+{
+    "defaultMaterial": "lumiext:default_bumpy_side",
+    "variants": {
+        "axis=x":{
+            "defaultMaterial": "lumiext:default_bumpy_side_x"
+        },
+        "axis=z":{
+            "defaultMaterial": "lumiext:default_bumpy_side_z"
+        }
+    }
+}

@@ -11,18 +11,10 @@ void frx_startFragment(inout frx_FragmentData data)
 {
     if (frx_modelOriginType() == MODEL_ORIGIN_REGION) {
         vec3 pos = frx_var2.xyz;
-        float mag = 2.0*abs(0.6-fract(pos.y));
-        data.emissivity = smoothstep(0.3, 1.0, 1.0-mag*mag);
+        vec3 magA = 2.0 * abs(0.5 - fract(pos));
+        float mag = max(magA.x, max(magA.y, magA.z));
+        data.emissivity = smoothstep(0.3, 1.0, 1.0 - mag * mag);
     }
-
-    vec4 c = data.spriteColor;
-    float min_ = min( min(c.r, c.g), c.b );
-    float max_ = max( max(c.r, c.g), c.b );
-    float s = max_ > 0 ? (max_ - min_) / max_ : 0;
-    
-#ifdef LUMI_PBRX
-    pbr_roughness = 0.5;
-#endif
 
 #ifdef LUMIEXT_ApplyBumpDefault
     _applyBump(data);

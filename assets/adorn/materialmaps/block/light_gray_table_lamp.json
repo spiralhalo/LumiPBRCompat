@@ -1,6 +1,42 @@
 {
     "defaultMaterial": "lumicompat:adorn/table_lamp",
     "variants": {
+        "facing=west,lit=false,waterlogged=false": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=west,lit=false,waterlogged=true": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=north,lit=false,waterlogged=false": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=north,lit=false,waterlogged=true": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=south,lit=false,waterlogged=false": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=south,lit=false,waterlogged=true": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=east,lit=false,waterlogged=false": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=east,lit=false,waterlogged=true": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=up,lit=false,waterlogged=false": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=up,lit=false,waterlogged=true": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=down,lit=false,waterlogged=false": {
+            "defaultMaterial": "fabric:standard"
+        },
+        "facing=down,lit=false,waterlogged=true": {
+            "defaultMaterial": "fabric:standard"
+        },
         "lit=false,waterlogged=false": {
             "defaultMaterial": "fabric:standard"
          },

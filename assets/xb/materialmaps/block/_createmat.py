@@ -192,12 +192,26 @@ shapelist.append("ad") #;1;Capped Square Column;Inlay;
 shapelist.append("ae") #;6;Wedge Cap;None;
 shapelist.append("af") #;1;Round-Capped Round Column;None;
 
+lampshapelist = []
+lampshapelist.append("a7") #;1;Square Column;Inlay;
+lampshapelist.append("aa") #;1;Cut Round Column;Inlay;
+lampshapelist.append("ab") #;1;Flat Panel;Surface;
+lampshapelist.append("ac") #;1;Inset Panel;Inlay;
+lampshapelist.append("ad") #;1;Capped Square Column;Inlay;
 
+lamplist = []
+lamplist.append("g") #;minecraft:glowstone_dust;glow;with Glowstone Inlay;
+lamplist.append("p") #;minecraft:prismarine_crystals;glow;with Prismarine Inlay;
+lamplist.append("w") #;minecraft:glowstone_dust;white_lamp;Lamp;
+# lamplist.append("w") #;minecraft:prismarine_crystals;white_lamp;SKIP;
+lamplist.append("y") #;minecraft:glowstone_dust;lamp;Glowstone Lamp;
+lamplist.append("b") #;minecraft:prismarine_crystals;lamp;Prismarine Lamp;
 
 
 
 
 path = "assets/xb/materialmaps/block/{name}{shapename}.json"
+lamppath = "assets/xb/materialmaps/block/{name}{shapename}{lampname}.json"
 i = 0
 for blocklist in blocklists:
     for block in blocklist:
@@ -206,4 +220,41 @@ for blocklist in blocklists:
             f.write(block_contents[i])
             f.write('\n')
             f.close()
+        # Directly rewriting lamp material will remove the glow
+        # for lampshape in lampshapelist:
+        #     for lamp in lamplist:
+        #         h = open(lamppath.format(name=block, shapename=lampshape, lampname=lamp), "w")
+        #         h.write(block_contents[i])
+        #         h.write('\n')
+        #         h.close()
     i += 1
+
+
+
+# GLASS
+
+glasscolorlist = []
+glasscolorlist.append("k") #;black;1D1D21;Black;
+glasscolorlist.append("b") #;blue;3C44AA;Blue;
+glasscolorlist.append("w") #;brown;835432;Brown;
+glasscolorlist.append("c") #;cyan;169C9C;Cyan;
+glasscolorlist.append("n") #;gray;474F52;Gray;
+glasscolorlist.append("g") #;green;5E7C16;Green;
+glasscolorlist.append("u") #;light_blue;3AB3DA;Light Blue;
+glasscolorlist.append("a") #;light_gray;9D9D97;Light Gray;
+glasscolorlist.append("l") #;lime;80C71F;Lime;
+glasscolorlist.append("m") #;magenta;C74EBD;Magenta;
+glasscolorlist.append("o") #;orange;F9801D;Orange;
+glasscolorlist.append("p") #;pink;F38BAA;Pink;
+glasscolorlist.append("v") #;purple;8932B8;Purple;
+glasscolorlist.append("r") #;red;B02E26;Red;
+glasscolorlist.append("i") #;white;F9FFFE;White;
+glasscolorlist.append("y") #;yellow;FED83D;Yellow;
+
+glasspath = "assets/xb/materialmaps/block/g{colorname}.json"
+glasscontent = '{\n    "defaultMaterial": "lumiext:glass"\n}'
+for glasscolor in glasscolorlist:
+    f = open(glasspath.format(colorname=glasscolor), "w")
+    f.write(glasscontent)
+    f.write('\n')
+    f.close()

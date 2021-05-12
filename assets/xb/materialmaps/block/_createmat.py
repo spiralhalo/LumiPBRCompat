@@ -163,7 +163,7 @@ warm_glow.append("s3d") #;minecraft;redstone_block;Redstone;
 warm_glow.append("s3i") #;minecraft;magma_block;Magma;
 
 ice_solid = []
-ice_solid_content = '{\n    "defaultMaterial": "canvas:ice_solid"\n}'
+ice_solid_content = '{\n    "defaultMaterial": "lumiext:ice_solid"\n}'
 blocklists.append(ice_solid)
 block_contents.append(ice_solid_content)
 # ICE

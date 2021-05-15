@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:magma_block",
+                "material": "canvas:warm_glow"
+            }
+        ]
+    }
+}

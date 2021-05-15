@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:andesite",
+                "material": "lumiext:stone_bumpy"
+            }
+        ]
+    }
+}

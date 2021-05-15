@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:prismarine_bricks",
+                "material": "lumiext:stone_bumpy_smooth"
+            }
+        ]
+    }
+}

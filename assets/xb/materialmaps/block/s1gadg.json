@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:nether_bricks",
+                "material": "lumiext:stone_bumpy_smooth"
+            }
+        ]
+    }
+}

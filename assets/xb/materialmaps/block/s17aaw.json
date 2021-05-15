@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:polished_granite",
+                "material": "lumiext:stone_bumpy_smooth"
+            }
+        ]
+    }
+}

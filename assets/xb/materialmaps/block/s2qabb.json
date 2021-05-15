@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:netherrack",
+                "material": "lumiext:stone_bumpy"
+            }
+        ]
+    }
+}

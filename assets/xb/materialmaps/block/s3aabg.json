@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:emerald_block",
+                "material": "lumiext:gem_bumpy"
+            }
+        ]
+    }
+}

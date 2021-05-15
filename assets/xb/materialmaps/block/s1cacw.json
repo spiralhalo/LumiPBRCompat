@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:smooth_red_sandstone",
+                "material": "lumiext:stone_bumpy_smooth"
+            }
+        ]
+    }
+}

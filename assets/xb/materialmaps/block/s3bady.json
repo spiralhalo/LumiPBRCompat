@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:iron_block",
+                "material": "lumiext:metal_frame"
+            }
+        ]
+    }
+}

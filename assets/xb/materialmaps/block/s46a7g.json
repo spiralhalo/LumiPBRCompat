@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "xb:b0b",
+                "material": "lumiext:stone_bumpy"
+            }
+        ]
+    }
+}

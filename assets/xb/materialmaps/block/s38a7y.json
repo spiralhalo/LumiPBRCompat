@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:gold_block",
+                "material": "lumiext:metal_frame"
+            }
+        ]
+    }
+}

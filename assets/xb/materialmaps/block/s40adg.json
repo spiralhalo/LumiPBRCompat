@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:end_stone",
+                "material": "lumiext:stone_bumpy"
+            }
+        ]
+    }
+}

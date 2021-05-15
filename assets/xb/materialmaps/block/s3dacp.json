@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:redstone_block",
+                "material": "canvas:warm_glow"
+            }
+        ]
+    }
+}

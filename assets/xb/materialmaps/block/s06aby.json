@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:green_terracotta",
+                "material": "lumiext:stone_bumpy"
+            }
+        ]
+    }
+}

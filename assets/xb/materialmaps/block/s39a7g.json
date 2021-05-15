@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:diamond_block",
+                "material": "lumiext:gem_glitter"
+            }
+        ]
+    }
+}

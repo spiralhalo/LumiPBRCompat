@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:purpur_block",
+                "material": "lumiext:stone_bumpy_smooth"
+            }
+        ]
+    }
+}

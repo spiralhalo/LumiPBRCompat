@@ -1,0 +1,10 @@
+{
+    "defaultMap": {
+        "spriteMap": [
+            {
+                "sprite": "minecraft:jungle_planks",
+                "material": "lumiext:wood_polished"
+            }
+        ]
+    }
+}

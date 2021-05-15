@@ -2,7 +2,7 @@ blocklists = []
 block_contents = []
 
 stone_bumpy = []
-stone_bumpy_content = '{\n    "defaultMaterial": "lumiext:stone_bumpy"\n}'
+stone_bumpy_content = '"defaultMaterial": "lumiext:stone_bumpy"'
 blocklists.append(stone_bumpy)
 block_contents.append(stone_bumpy_content)
 # STONE
@@ -44,7 +44,7 @@ stone_bumpy.append("s46") #;xb;b0b;Rammed Earth;
 # stone_bumpy.append("s48") #;xb;b0f;Ancient Stone;
 
 stone_bumpy_smooth = []
-stone_bumpy_smooth_content = '{\n    "defaultMaterial": "lumiext:stone_bumpy_smooth"\n}'
+stone_bumpy_smooth_content = '"defaultMaterial": "lumiext:stone_bumpy_smooth"'
 blocklists.append(stone_bumpy_smooth)
 block_contents.append(stone_bumpy_smooth_content)
 # SMOOTH STONE
@@ -73,7 +73,7 @@ stone_bumpy_smooth.append("s2p") #;minecraft;lapis_block;Lapis;
 stone_bumpy_smooth.append("s35") #;minecraft;polished_basalt;Polished Basalt;
 
 wood_polished = []
-wood_polished_content = '{\n    "defaultMaterial": "lumiext:wood_polished"\n}'
+wood_polished_content = '"defaultMaterial": "lumiext:wood_polished"'
 blocklists.append(wood_polished)
 block_contents.append(wood_polished_content)
 # WOOD POLISHED
@@ -87,7 +87,7 @@ wood_polished.append("s2f") #;minecraft;crimson_planks;Crimson Planks;
 wood_polished.append("s2k") #;minecraft;warped_planks;Warped Planks;
 
 compoundmat_logs = []
-compoundmat_logs_content = '{\n    "defaultMaterial": "lumiext:default_bumpy_side",\n    "variants": {\n        "axis=x":{\n            "defaultMaterial": "lumiext:default_bumpy_side_x"\n        },\n        "axis=z":{\n            "defaultMaterial": "lumiext:default_bumpy_side_z"\n        }\n    }\n}'
+compoundmat_logs_content = '"defaultMaterial": "lumiext:default_bumpy_side",\n    "variants": {\n        "axis=x":{\n            "defaultMaterial": "lumiext:default_bumpy_side_x"\n        },\n        "axis=z":{\n            "defaultMaterial": "lumiext:default_bumpy_side_z"\n        }\n    }'
 blocklists.append(compoundmat_logs)
 block_contents.append(compoundmat_logs_content)
 # ?????? LOGS
@@ -119,7 +119,7 @@ compoundmat_logs.append("s2n") #;minecraft;warped_stem;Warped Stem;
 compoundmat_logs.append("s2o") #;minecraft;stripped_warped_stem;Stripped Warped Stem;
 
 metal_frame = []
-metal_frame_content = '{\n    "defaultMaterial": "lumiext:metal_frame"\n}'
+metal_frame_content = '"defaultMaterial": "lumiext:metal_frame"'
 blocklists.append(metal_frame)
 block_contents.append(metal_frame_content)
 # METAL BUMPY
@@ -133,21 +133,21 @@ metal_frame.append("s4a") #;xb;b0j;Old Black Iron;
 # metal_frame.append("s4b") #;xb;b0l;Rusty Black Iron;
 
 gem_glitter = []
-gem_glitter_content = '{\n    "defaultMaterial": "lumiext:gem_glitter"\n}'
+gem_glitter_content = '"defaultMaterial": "lumiext:gem_glitter"'
 blocklists.append(gem_glitter)
 block_contents.append(gem_glitter_content)
 # GEM GLITTER
 gem_glitter.append("s39") #;minecraft;diamond_block;Diamond;
 
 gem_bumpy = []
-gem_bumpy_content = '{\n    "defaultMaterial": "lumiext:gem_bumpy"\n}'
+gem_bumpy_content = '"defaultMaterial": "lumiext:gem_bumpy"'
 blocklists.append(gem_bumpy)
 block_contents.append(gem_bumpy_content)
 # GEM BUMPY
 gem_bumpy.append("s3a") #;minecraft;emerald_block;Emerald;
 
 crying_obsidian = []
-crying_obsidian_content = '{\n    "defaultMaterial": "lumiext:crying_obsidian"\n}'
+crying_obsidian_content = '"defaultMaterial": "lumiext:crying_obsidian"'
 blocklists.append(crying_obsidian)
 block_contents.append(crying_obsidian_content)
 # OBSIDIAN
@@ -155,7 +155,7 @@ stone_bumpy_smooth.append("s36") #;minecraft;obsidian;Obsidian;
 crying_obsidian.append("s37") #;minecraft;crying_obsidian;Crying Obsidian;
 
 warm_glow = []
-warm_glow_content = '{\n    "defaultMaterial": "canvas:warm_glow"\n}'
+warm_glow_content = '"defaultMaterial": "canvas:warm_glow"'
 blocklists.append(warm_glow)
 block_contents.append(warm_glow_content)
 # ???? WARM GLOW ????
@@ -163,7 +163,7 @@ warm_glow.append("s3d") #;minecraft;redstone_block;Redstone;
 warm_glow.append("s3i") #;minecraft;magma_block;Magma;
 
 ice_solid = []
-ice_solid_content = '{\n    "defaultMaterial": "lumiext:ice_solid"\n}'
+ice_solid_content = '"defaultMaterial": "lumiext:ice_solid"'
 blocklists.append(ice_solid)
 block_contents.append(ice_solid_content)
 # ICE
@@ -210,6 +210,9 @@ lamplist.append("b") #;minecraft:prismarine_crystals;lamp;Prismarine Lamp;
 
 
 
+regularcontent = '{{\n    {material}\n}}'
+lampcontent = '{{\n    {material},\n    "defaultMap": {{\n        "spriteMap": [\n            {{\n                "sprite": "exotic-matter:noise_subtle",\n                "material": "canvas:emissive_no_diffuse"\n            }},\n            {{\n                "sprite": "exotic-matter:noise_medium",\n                "material": "canvas:emissive_no_diffuse"\n            }}\n        ]\n    }}\n}}'
+
 path = "assets/xb/materialmaps/block/{name}{shapename}.json"
 lamppath = "assets/xb/materialmaps/block/{name}{shapename}{lampname}.json"
 i = 0
@@ -217,14 +220,14 @@ for blocklist in blocklists:
     for block in blocklist:
         for shape in shapelist:
             f = open(path.format(name=block, shapename=shape), "w")
-            f.write(block_contents[i])
+            f.write(regularcontent.format(material=block_contents[i]))
             f.write('\n')
             f.close()
         # Directly rewriting lamp material will remove the glow
         # for lampshape in lampshapelist:
         #     for lamp in lamplist:
         #         h = open(lamppath.format(name=block, shapename=lampshape, lampname=lamp), "w")
-        #         h.write(block_contents[i])
+        #         h.write(lampcontent.format(material=block_contents[i]))
         #         h.write('\n')
         #         h.close()
     i += 1

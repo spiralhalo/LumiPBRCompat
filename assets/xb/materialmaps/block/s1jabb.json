@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:quartz",
+                "sprite": "minecraft:block/quartz",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

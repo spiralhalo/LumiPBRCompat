@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:purpur_block",
+                "sprite": "minecraft:block/purpur_block",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

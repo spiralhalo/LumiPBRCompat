@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:gilded_blackstone",
+                "sprite": "minecraft:block/gilded_blackstone",
                 "material": "lumiext:stone_bumpy"
             }
         ]

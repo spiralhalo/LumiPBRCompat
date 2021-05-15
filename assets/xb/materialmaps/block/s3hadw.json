@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:blue_ice",
+                "sprite": "minecraft:block/blue_ice",
                 "material": "lumiext:ice_solid"
             }
         ]

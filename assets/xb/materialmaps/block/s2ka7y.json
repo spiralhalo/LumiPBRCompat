@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:warped_planks",
+                "sprite": "minecraft:block/warped_planks",
                 "material": "lumiext:wood_polished"
             }
         ]

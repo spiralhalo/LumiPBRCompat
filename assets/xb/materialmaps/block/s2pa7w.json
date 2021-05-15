@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:lapis_block",
+                "sprite": "minecraft:block/lapis_block",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

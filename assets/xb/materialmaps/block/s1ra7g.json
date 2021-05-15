@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:jungle_planks",
+                "sprite": "minecraft:block/jungle_planks",
                 "material": "lumiext:wood_polished"
             }
         ]

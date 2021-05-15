@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:crimson_planks",
+                "sprite": "minecraft:block/crimson_planks",
                 "material": "lumiext:wood_polished"
             }
         ]

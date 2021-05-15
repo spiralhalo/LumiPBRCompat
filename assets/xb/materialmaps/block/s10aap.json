@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:cobblestone",
+                "sprite": "minecraft:block/cobblestone",
                 "material": "lumiext:stone_bumpy"
             }
         ]

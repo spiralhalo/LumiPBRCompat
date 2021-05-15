@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:crying_obsidian",
+                "sprite": "minecraft:block/crying_obsidian",
                 "material": "lumiext:crying_obsidian"
             }
         ]

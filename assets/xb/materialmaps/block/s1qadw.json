@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:dark_oak_planks",
+                "sprite": "minecraft:block/dark_oak_planks",
                 "material": "lumiext:wood_polished"
             }
         ]

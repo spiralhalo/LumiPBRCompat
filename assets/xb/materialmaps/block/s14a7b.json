@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:diorite",
+                "sprite": "minecraft:block/diorite",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

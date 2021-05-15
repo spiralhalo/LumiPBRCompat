@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:prismarine",
+                "sprite": "minecraft:block/prismarine",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

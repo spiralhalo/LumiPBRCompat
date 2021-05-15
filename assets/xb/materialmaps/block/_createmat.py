@@ -6,35 +6,37 @@ stone_bumpy_content = 'lumiext:stone_bumpy'
 blocklists.append(stone_bumpy)
 block_contents.append(stone_bumpy_content)
 # STONE
-stone_bumpy.append(("s00", "minecraft:terracotta")) #;Terracotta;
-stone_bumpy.append(("s01", "minecraft:black_terracotta")) #;Black Terracotta;
-stone_bumpy.append(("s02", "minecraft:blue_terracotta")) #;Blue Terracotta;
-stone_bumpy.append(("s03", "minecraft:brown_terracotta")) #;Brown Terracotta;
-stone_bumpy.append(("s04", "minecraft:cyan_terracotta")) #;Cyan Terracotta;
-stone_bumpy.append(("s05", "minecraft:gray_terracotta")) #;Gray Terracotta;
-stone_bumpy.append(("s06", "minecraft:green_terracotta")) #;Green Terracotta;
-stone_bumpy.append(("s07", "minecraft:light_blue_terracotta")) #;Light Blue Terracotta;
-stone_bumpy.append(("s08", "minecraft:light_gray_terracotta")) #;Light Gray Terracotta;
-stone_bumpy.append(("s09", "minecraft:lime_terracotta")) #;Lime Terracotta;
-stone_bumpy.append(("s0a", "minecraft:magenta_terracotta")) #;Magenta Terracotta;
-stone_bumpy.append(("s0b", "minecraft:orange_terracotta")) #;Orange Terracotta;
-stone_bumpy.append(("s0c", "minecraft:pink_terracotta")) #;Pink Terracotta;
-stone_bumpy.append(("s0d", "minecraft:purple_terracotta")) #;Purple Terracotta;
-stone_bumpy.append(("s0e", "minecraft:red_terracotta")) #;Red Terracotta;
-stone_bumpy.append(("s0f", "minecraft:white_terracotta")) #;White Terracotta;
-stone_bumpy.append(("s0g", "minecraft:yellow_terracotta")) #;Yellow Terracotta;
-stone_bumpy.append(("s0x", "minecraft:stone")) #;Stone;
-stone_bumpy.append(("s10", "minecraft:cobblestone")) #;Cobblestone;
-stone_bumpy.append(("s11", "minecraft:mossy_cobblestone")) #;Mossy Cobblestone;
-stone_bumpy.append(("s12", "minecraft:andesite")) #;Andesite;
-stone_bumpy.append(("s19", "minecraft:sandstone")) #;Sandstone;
-stone_bumpy.append(("s1b", "minecraft:red_sandstone")) #;Red Sandstone;
-stone_bumpy.append(("s2b", "minecraft:blackstone")) #;Blackstone;
-stone_bumpy.append(("s2c", "minecraft:gilded_blackstone")) #;Gilded Blackstone;
-stone_bumpy.append(("s2q", "minecraft:netherrack")) #;Netherrack;
-stone_bumpy.append(("s34", "minecraft:basalt")) #;Basalt;
-stone_bumpy.append(("s40", "minecraft:end_stone")) #;End Stone;
-stone_bumpy.append(("s46", "xb:b0b")) #;Rammed Earth;
+stone_bumpy.append(("s00", "minecraft:block/terracotta")) #;Terracotta;
+stone_bumpy.append(("s01", "minecraft:block/black_terracotta")) #;Black Terracotta;
+stone_bumpy.append(("s02", "minecraft:block/blue_terracotta")) #;Blue Terracotta;
+stone_bumpy.append(("s03", "minecraft:block/brown_terracotta")) #;Brown Terracotta;
+stone_bumpy.append(("s04", "minecraft:block/cyan_terracotta")) #;Cyan Terracotta;
+stone_bumpy.append(("s05", "minecraft:block/gray_terracotta")) #;Gray Terracotta;
+stone_bumpy.append(("s06", "minecraft:block/green_terracotta")) #;Green Terracotta;
+stone_bumpy.append(("s07", "minecraft:block/light_blue_terracotta")) #;Light Blue Terracotta;
+stone_bumpy.append(("s08", "minecraft:block/light_gray_terracotta")) #;Light Gray Terracotta;
+stone_bumpy.append(("s09", "minecraft:block/lime_terracotta")) #;Lime Terracotta;
+stone_bumpy.append(("s0a", "minecraft:block/magenta_terracotta")) #;Magenta Terracotta;
+stone_bumpy.append(("s0b", "minecraft:block/orange_terracotta")) #;Orange Terracotta;
+stone_bumpy.append(("s0c", "minecraft:block/pink_terracotta")) #;Pink Terracotta;
+stone_bumpy.append(("s0d", "minecraft:block/purple_terracotta")) #;Purple Terracotta;
+stone_bumpy.append(("s0e", "minecraft:block/red_terracotta")) #;Red Terracotta;
+stone_bumpy.append(("s0f", "minecraft:block/white_terracotta")) #;White Terracotta;
+stone_bumpy.append(("s0g", "minecraft:block/yellow_terracotta")) #;Yellow Terracotta;
+stone_bumpy.append(("s0x", "minecraft:block/stone")) #;Stone;
+stone_bumpy.append(("s10", "minecraft:block/cobblestone")) #;Cobblestone;
+stone_bumpy.append(("s11", "minecraft:block/mossy_cobblestone")) #;Mossy Cobblestone;
+stone_bumpy.append(("s12", "minecraft:block/andesite")) #;Andesite;
+stone_bumpy.append(("s19", "minecraft:block/sandstone")) #;Sandstone;
+stone_bumpy.append(("s1b", "minecraft:block/red_sandstone")) #;Red Sandstone;
+stone_bumpy.append(("s2b", "minecraft:block/blackstone")) #;Blackstone;
+stone_bumpy.append(("s2c", "minecraft:block/gilded_blackstone")) #;Gilded Blackstone;
+stone_bumpy.append(("s2q", "minecraft:block/netherrack")) #;Netherrack;
+stone_bumpy.append(("s40", "minecraft:block/end_stone")) #;End Stone;
+stone_bumpy.append(("s46", "xb:block/b0b")) #;Rammed Earth;
+# DEACTIVATED BECAUSE DIFFERENT TOP FROM SIDE
+# stone_bumpy.append(("s34", "minecraft:block/basalt")) #;Basalt;
+
 # these are broken
 # stone_bumpy.append("s42") #;xb;b02;Fancy Stone;
 # stone_bumpy.append("s43") #;xb;b05;Fancy Andesite;
@@ -48,43 +50,44 @@ stone_bumpy_smooth_content = 'lumiext:stone_bumpy_smooth'
 blocklists.append(stone_bumpy_smooth)
 block_contents.append(stone_bumpy_smooth_content)
 # SMOOTH STONE
-stone_bumpy_smooth.append(("s0y", "minecraft:stone_bricks")) #;Stone Bricks;
-stone_bumpy_smooth.append(("s0z", "minecraft:mossy_stone_bricks")) #;Mossy Stone Bricks;
-stone_bumpy_smooth.append(("s13", "minecraft:polished_andesite")) #;Polished Andesite;
-stone_bumpy_smooth.append(("s14", "minecraft:diorite")) #;Diorite;
-stone_bumpy_smooth.append(("s15", "minecraft:polished_diorite")) #;Polished Diorite;
-stone_bumpy_smooth.append(("s16", "minecraft:granite")) #;Granite;
-stone_bumpy_smooth.append(("s17", "minecraft:polished_granite")) #;Polished Granite;
-stone_bumpy_smooth.append(("s18", "minecraft:bricks")) #;Bricks;
-stone_bumpy_smooth.append(("s1a", "minecraft:smooth_sandstone")) #;Smooth Sandstone;
-stone_bumpy_smooth.append(("s1c", "minecraft:smooth_red_sandstone")) #;Smooth Red Sandstone;
-stone_bumpy_smooth.append(("s1j", "minecraft:quartz")) #;Quartz;
-stone_bumpy_smooth.append(("s1i", "minecraft:smooth_quartz")) #;Smooth Quartz;
-stone_bumpy_smooth.append(("s1g", "minecraft:nether_bricks")) #;Nether Bricks;
-stone_bumpy_smooth.append(("s1h", "minecraft:red_nether_bricks")) #;Red Nether Bricks;
-stone_bumpy_smooth.append(("s1k", "minecraft:end_stone_bricks")) #;End Stone Bricks;
-stone_bumpy_smooth.append(("s1l", "minecraft:purpur_block")) #;Purpur Block;
-stone_bumpy_smooth.append(("s1d", "minecraft:prismarine")) #;Prismarine;
-stone_bumpy_smooth.append(("s1e", "minecraft:prismarine_bricks")) #;Prismarine Bricks;
-stone_bumpy_smooth.append(("s1f", "minecraft:dark_prismarine")) #;Dark Prismarine;
-stone_bumpy_smooth.append(("s2d", "minecraft:polished_blackstone")) #;Polished Blackstone;
-stone_bumpy_smooth.append(("s2e", "minecraft:polished_blackstone_bricks")) #;Polished Blackstone Bricks;
-stone_bumpy_smooth.append(("s2p", "minecraft:lapis_block")) #;Lapis;
-stone_bumpy_smooth.append(("s35", "minecraft:polished_basalt")) #;Polished Basalt;
+stone_bumpy_smooth.append(("s0y", "minecraft:block/stone_bricks")) #;Stone Bricks;
+stone_bumpy_smooth.append(("s0z", "minecraft:block/mossy_stone_bricks")) #;Mossy Stone Bricks;
+stone_bumpy_smooth.append(("s13", "minecraft:block/polished_andesite")) #;Polished Andesite;
+stone_bumpy_smooth.append(("s14", "minecraft:block/diorite")) #;Diorite;
+stone_bumpy_smooth.append(("s15", "minecraft:block/polished_diorite")) #;Polished Diorite;
+stone_bumpy_smooth.append(("s16", "minecraft:block/granite")) #;Granite;
+stone_bumpy_smooth.append(("s17", "minecraft:block/polished_granite")) #;Polished Granite;
+stone_bumpy_smooth.append(("s18", "minecraft:block/bricks")) #;Bricks;
+stone_bumpy_smooth.append(("s1a", "minecraft:block/smooth_sandstone")) #;Smooth Sandstone;
+stone_bumpy_smooth.append(("s1c", "minecraft:block/smooth_red_sandstone")) #;Smooth Red Sandstone;
+stone_bumpy_smooth.append(("s1j", "minecraft:block/quartz")) #;Quartz;
+stone_bumpy_smooth.append(("s1i", "minecraft:block/smooth_quartz")) #;Smooth Quartz;
+stone_bumpy_smooth.append(("s1g", "minecraft:block/nether_bricks")) #;Nether Bricks;
+stone_bumpy_smooth.append(("s1h", "minecraft:block/red_nether_bricks")) #;Red Nether Bricks;
+stone_bumpy_smooth.append(("s1k", "minecraft:block/end_stone_bricks")) #;End Stone Bricks;
+stone_bumpy_smooth.append(("s1l", "minecraft:block/purpur_block")) #;Purpur Block;
+stone_bumpy_smooth.append(("s1d", "minecraft:block/prismarine")) #;Prismarine;
+stone_bumpy_smooth.append(("s1e", "minecraft:block/prismarine_bricks")) #;Prismarine Bricks;
+stone_bumpy_smooth.append(("s1f", "minecraft:block/dark_prismarine")) #;Dark Prismarine;
+stone_bumpy_smooth.append(("s2d", "minecraft:block/polished_blackstone")) #;Polished Blackstone;
+stone_bumpy_smooth.append(("s2e", "minecraft:block/polished_blackstone_bricks")) #;Polished Blackstone Bricks;
+stone_bumpy_smooth.append(("s2p", "minecraft:block/lapis_block")) #;Lapis;
+# DEACTIVATED BECAUSE DIFFERENT TOP FROM SIDE
+# stone_bumpy_smooth.append(("s35", "minecraft:block/polished_basalt")) #;Polished Basalt;
 
 wood_polished = []
 wood_polished_content = 'lumiext:wood_polished'
 blocklists.append(wood_polished)
 block_contents.append(wood_polished_content)
 # WOOD POLISHED
-wood_polished.append(("s1n", "minecraft:acacia_planks")) #;Acacia;
-wood_polished.append(("s1o", "minecraft:spruce_planks")) #;Spruce;
-wood_polished.append(("s1p", "minecraft:oak_planks")) #;Oak;
-wood_polished.append(("s1q", "minecraft:dark_oak_planks")) #;Dark Oak;
-wood_polished.append(("s1r", "minecraft:jungle_planks")) #;Jungle;
-wood_polished.append(("s1s", "minecraft:birch_planks")) #;Birch;
-wood_polished.append(("s2f", "minecraft:crimson_planks")) #;Crimson Planks;
-wood_polished.append(("s2k", "minecraft:warped_planks")) #;Warped Planks;
+wood_polished.append(("s1n", "minecraft:block/acacia_planks")) #;Acacia;
+wood_polished.append(("s1o", "minecraft:block/spruce_planks")) #;Spruce;
+wood_polished.append(("s1p", "minecraft:block/oak_planks")) #;Oak;
+wood_polished.append(("s1q", "minecraft:block/dark_oak_planks")) #;Dark Oak;
+wood_polished.append(("s1r", "minecraft:block/jungle_planks")) #;Jungle;
+wood_polished.append(("s1s", "minecraft:block/birch_planks")) #;Birch;
+wood_polished.append(("s2f", "minecraft:block/crimson_planks")) #;Crimson Planks;
+wood_polished.append(("s2k", "minecraft:block/warped_planks")) #;Warped Planks;
 
 # OUTDATED. ALSO PAIN
 # compoundmat_logs = []
@@ -124,12 +127,12 @@ metal_frame_content = 'lumiext:metal_frame'
 blocklists.append(metal_frame)
 block_contents.append(metal_frame_content)
 # METAL BUMPY
-metal_frame.append(("s2s", "minecraft:netherite_block")) #;Netherite;
-metal_frame.append(("s38", "minecraft:gold_block")) #;Gold;
-metal_frame.append(("s3b", "minecraft:iron_block")) #;Iron;
+metal_frame.append(("s2s", "minecraft:block/netherite_block")) #;Netherite;
+metal_frame.append(("s38", "minecraft:block/gold_block")) #;Gold;
+metal_frame.append(("s3b", "minecraft:block/iron_block")) #;Iron;
 # not sure if these are broken or not
-metal_frame.append(("s49", "xb:b0h")) #;Black Iron;
-metal_frame.append(("s4a", "xb:b0j")) #;Old Black Iron;
+metal_frame.append(("s49", "xb:block/b0h")) #;Black Iron;
+metal_frame.append(("s4a", "xb:block/b0j")) #;Old Black Iron;
 # rusty stuff is special case
 # metal_frame.append("s4b") #;xb;b0l;Rusty Black Iron;
 
@@ -138,38 +141,38 @@ gem_glitter_content = 'lumiext:gem_glitter'
 blocklists.append(gem_glitter)
 block_contents.append(gem_glitter_content)
 # GEM GLITTER
-gem_glitter.append(("s39", "minecraft:diamond_block")) #;Diamond;
+gem_glitter.append(("s39", "minecraft:block/diamond_block")) #;Diamond;
 
 gem_bumpy = []
 gem_bumpy_content = 'lumiext:gem_bumpy'
 blocklists.append(gem_bumpy)
 block_contents.append(gem_bumpy_content)
 # GEM BUMPY
-gem_bumpy.append(("s3a", "minecraft:emerald_block")) #;Emerald;
+gem_bumpy.append(("s3a", "minecraft:block/emerald_block")) #;Emerald;
 
 crying_obsidian = []
 crying_obsidian_content = 'lumiext:crying_obsidian'
 blocklists.append(crying_obsidian)
 block_contents.append(crying_obsidian_content)
 # OBSIDIAN
-stone_bumpy_smooth.append(("s36", "minecraft:obsidian")) #;Obsidian;
-crying_obsidian.append(("s37", "minecraft:crying_obsidian")) #;Crying Obsidian;
+stone_bumpy_smooth.append(("s36", "minecraft:block/obsidian")) #;Obsidian;
+crying_obsidian.append(("s37", "minecraft:block/crying_obsidian")) #;Crying Obsidian;
 
 warm_glow = []
 warm_glow_content = 'canvas:warm_glow'
 blocklists.append(warm_glow)
 block_contents.append(warm_glow_content)
 # ???? WARM GLOW ????
-warm_glow.append(("s3d", "minecraft:redstone_block")) #;Redstone;
-warm_glow.append(("s3i", "minecraft:magma_block")) #;Magma;
+warm_glow.append(("s3d", "minecraft:block/redstone_block")) #;Redstone;
+warm_glow.append(("s3i", "minecraft:block/magma_block")) #;Magma;
 
 ice_solid = []
 ice_solid_content = 'lumiext:ice_solid'
 blocklists.append(ice_solid)
 block_contents.append(ice_solid_content)
 # ICE
-ice_solid.append(("s3g", "minecraft:packed_ice")) #;Packed Ice;
-ice_solid.append(("s3h", "minecraft:blue_ice")) #;Blue Ice;
+ice_solid.append(("s3g", "minecraft:block/packed_ice")) #;Packed Ice;
+ice_solid.append(("s3h", "minecraft:block/blue_ice")) #;Blue Ice;
 
 
 

@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:netherite_block",
+                "sprite": "minecraft:block/netherite_block",
                 "material": "lumiext:metal_frame"
             }
         ]

@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:light_blue_terracotta",
+                "sprite": "minecraft:block/light_blue_terracotta",
                 "material": "lumiext:stone_bumpy"
             }
         ]

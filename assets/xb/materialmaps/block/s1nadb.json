@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:acacia_planks",
+                "sprite": "minecraft:block/acacia_planks",
                 "material": "lumiext:wood_polished"
             }
         ]

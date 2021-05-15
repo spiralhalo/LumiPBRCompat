@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:red_nether_bricks",
+                "sprite": "minecraft:block/red_nether_bricks",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

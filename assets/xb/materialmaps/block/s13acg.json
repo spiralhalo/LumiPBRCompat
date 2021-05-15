@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:polished_andesite",
+                "sprite": "minecraft:block/polished_andesite",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:smooth_sandstone",
+                "sprite": "minecraft:block/smooth_sandstone",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

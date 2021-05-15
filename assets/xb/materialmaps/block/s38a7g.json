@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:gold_block",
+                "sprite": "minecraft:block/gold_block",
                 "material": "lumiext:metal_frame"
             }
         ]

@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:netherrack",
+                "sprite": "minecraft:block/netherrack",
                 "material": "lumiext:stone_bumpy"
             }
         ]

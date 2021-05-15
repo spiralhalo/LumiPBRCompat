@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:polished_blackstone",
+                "sprite": "minecraft:block/polished_blackstone",
                 "material": "lumiext:stone_bumpy_smooth"
             }
         ]

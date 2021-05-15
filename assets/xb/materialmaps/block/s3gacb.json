@@ -2,7 +2,7 @@
     "defaultMap": {
         "spriteMap": [
             {
-                "sprite": "minecraft:packed_ice",
+                "sprite": "minecraft:block/packed_ice",
                 "material": "lumiext:ice_solid"
             }
         ]

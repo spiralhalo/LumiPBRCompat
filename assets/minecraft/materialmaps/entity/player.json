@@ -231,6 +231,54 @@
                 }
             },
             "material": "lumiext:armor_metal_transform"
-        }
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/entity/iron_golem/iron_golem.png"
+                }
+            },
+            "material": "lumiext:iron_golem_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/entity/iron_golem/iron_golem_crackiness_low.png"
+                }
+            },
+            "material": "lumiext:iron_golem_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/entity/iron_golem/iron_golem_crackiness_medium.png"
+                }
+            },
+            "material": "lumiext:iron_golem_transform"
+        },
+        {
+          "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/entity/iron_golem/iron_golem_crackiness_high.png"
+                }
+            },
+            "material": "lumiext:iron_golem_transform"
+        },
+        {
+            "predicate": {
+                "materialPredicate": {
+                    "renderLayerName": "eyes"
+                }
+          },
+            "material": "lumi:tasty_oculi"
+        },
+        {
+            "predicate": {
+                "materialPredicate": {
+                    "texture": "minecraft:textures/entity/zombie/drowned.png"
+                }
+            },
+            "material": "canvas:emissive_transform"
+        },
     ]
 }

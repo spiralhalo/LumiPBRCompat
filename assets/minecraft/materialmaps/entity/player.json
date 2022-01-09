@@ -279,6 +279,6 @@
                 }
             },
             "material": "canvas:emissive_transform"
-        },
+        }
     ]
 }
